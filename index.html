@@ -11,9 +11,34 @@
 
 <body>
     <header>
-        <nav>
-            
+        <!-- Création de la nav pour la version desktop du site. -->
+        <nav class = "desktop_nav">
+            <ul>
+                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href=""><img src="" alt=""></a>Présentation</li>
+                <li><a href=""><img src="" alt=""></a>Compétences</li>
+                <li><a href=""><img src="" alt=""></a>Portfolio Design</li>
+                <li><a href=""><img src="" alt=""></a>Portfolio Dev</li>
+                <li><a href=""><img src="" alt=""></a>Contact</li>
+            </ul>
         </nav>
+        <!-- Création du menu burger pour la version mobile du site. -->
+        <nav class = "mobile_nav">
+            <div class = "burger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menu" class="menu">
+                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href=""><img src="" alt=""></a>Présentation</li>
+                <li><a href=""><img src="" alt=""></a>Compétences</li>
+                <li><a href=""><img src="" alt=""></a>Portfolio Design</li>
+                <li><a href=""><img src="" alt=""></a>Portfolio Dev</li>
+                <li><a href=""><img src="" alt=""></a>Contact</li>
+            </ul>
+        </nav>
+        <script src="assets/js/script.js"></script>
     </header>
 </body>
 
