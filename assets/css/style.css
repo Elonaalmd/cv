@@ -62,9 +62,7 @@
         align-items: start;
         padding: 10px;
     }
-    .mobile_nav ul {
-        display: flex;
-        flex-direction: column;
+   .mobile_nav ul {
         gap: 100px;
     }
 }
