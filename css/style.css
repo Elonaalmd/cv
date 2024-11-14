@@ -1,3 +1,12 @@
+/* Mise en place du fond, que j'ai créer ultérieurement sur canva. */
+
+body{
+    background-image: url("assets/img/fond.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Mise en place du style de la nav version desktop. */
 
 .desktop_nav {
@@ -66,3 +75,4 @@
         gap: 100px;
     }
 }
+
