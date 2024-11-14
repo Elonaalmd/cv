@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceuil</title>
     <link rel="stylesheet" href="css/style.css">
+    <title>Acceuil</title>
 </head>
 
 <body>
@@ -39,13 +39,71 @@
         </nav>
         <script src="js/script.js"></script>
     </header>
-    
-</body>
-    <footer>
-        <p>Contact.pdf</p>
-        <div id="contact">
-            <a href="mailto : elona.almeida.sja@gmail.com">Mail</a>
-            <a href="tel : +330668595076">Téléphone</a>
+    <div class="container">
+        <!-- Ajout de la photo -->
+        <div class="profil_picture">
+            <img src="assets/img/pdp/photocv.jpg" alt="Photo de profil">
         </div>
-    </footer>
+        <!-- Présentation -->
+        <div class="presentation">
+            <h2>
+                Présentation
+            </h2>
+            <ul>
+                <li>Photo.png</li>
+                <li>Diplômes.pdf</li>
+                <li>Expériences.pdf</li>
+                <li>Occupations.pdf</li>
+            </ul>
+        </div>
+        <!-- Compétences -->
+        <div class="competence">
+            <h2>
+                Compétences
+            </h2>
+            <ul>
+                <li>Domaines.pdf</li>
+                <li>Langages_Programmation.pdf</li>
+                <li>Applications_Design.pdf</li>
+            </ul>
+        </div>
+        <!-- Création du faux panneaux de connexion. -->
+        <div class="login">
+            <label for="username">Identifiant :</label>
+            <input type="text" id="username" placeholder="prenom.nom">
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" placeholder="*************">
+            <button>Connexion</button>
+        </div>
+        <div class="portfolio">
+            <h2>Portofolio</h2>
+            <ul>
+                <li><strong>
+                        Design
+                    </strong>
+                    <ul>
+                        <li>Projet_Ecoles.png</li>
+                        <li>Projet_Personnel.png</li>
+                    </ul>
+                </li>
+                <li><strong>
+                        Dev
+                    </strong>
+                    <ul>
+                        <li>Projet_Ecoles.png</li>
+                        <li>Projet_Personnel.png</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>Contact.pdf</p>
+    <div id="contact">
+        <a href="mailto : elona.almeida.sja@gmail.com">Mail</a>
+        <a href="tel : +330668595076">Téléphone</a>
+    </div>
+</footer>
+
 </html>

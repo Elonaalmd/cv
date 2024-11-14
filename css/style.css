@@ -1,13 +1,15 @@
+
+
 /* Mise en place du style de la nav version desktop. */
 
 .desktop_nav {
     background-color: #f3e7ff;
+    margin-left: 10%;
+    margin-right: 10%;
     border: solid;
     border: 1px;
     border-radius: 20px;
     border-color: black;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .desktop_nav ul {
