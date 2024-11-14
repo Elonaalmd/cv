@@ -1,4 +1,8 @@
-
+body{
+    background-image: url("http://127.0.0.1:5500/assets/img/fond/fond.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* Mise en place du style de la nav version desktop. */
 
 .desktop_nav {
@@ -95,27 +99,6 @@
     object-fit: cover;
 }
 
-.presentation {
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-
-.competence {
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-
-.portfolio {
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-
 /* Je viens rendre le remplissage impossible */
 .login {
     pointer-events: none;
@@ -172,4 +155,9 @@
         width: 250px;
         height: 250px;
     }
+}
+
+footer{
+    background-color: #f3e7ff;
+    border: solid;
 }
