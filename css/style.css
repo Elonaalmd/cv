@@ -3,6 +3,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+html body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Mise en place du style de la nav version desktop. */
 
 .desktop_nav {
@@ -127,6 +135,7 @@ body{
     border-radius: 4px;
     text-decoration: none;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 /* Je met en place la repsponsive pour le body */
@@ -160,4 +169,11 @@ body{
 footer{
     background-color: #f3e7ff;
     border: solid;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
