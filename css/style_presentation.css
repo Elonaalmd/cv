@@ -25,46 +25,11 @@
     font-weight: bold;
 }
 
-.document{
-    margin: 20px;
-}
-
-.windows{
-    background-color: white;
-    border: 1px solid #b8a1d6;
-}
-
-.windows_header{
-    background-color: #d3c3e6;
-    padding: 5px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-}
-
-.windows_content{
-    padding: 15px;
-    color: #333;
-    border: 1px solid #cec3db;
-    background-color: #dad1e6;
-}
-
 @media (max-width : 768px) {
     .section_profil{
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 10px;
-    }
-    .document{
-        margin: 10px;
-    }
-    .windows_header{
-        padding: 4px;
-        font-size: 0.9em;
-    }
-    .windows_content{
-        padding: 10px;
-        font-size: 0.9em;
     }
 }
