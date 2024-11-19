@@ -1,18 +1,23 @@
-body{
-    background-image: url("http://127.0.0.1:5500/assets/img/fond/fond.png");
+/* Cette page css me permet de créer le css ui va être appliquable sur toutes les pages */
+
+/* Je viens mettre une image de fond que j'ai créer pour faire un fond personnalisé de mon cv. */
+body {
+    background-image: url("http://127.0.0.1:5501/assets/img/fond/fond.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-a{
+
+/* Je viens retirer les décoration sur le texte et sur la liste. */
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-html body{
+html body {
     height: 100%;
     margin: 0;
     display: flex;
@@ -20,7 +25,6 @@ html body{
 }
 
 /* Mise en place du style de la nav version desktop. */
-
 .desktop_nav {
     background-color: #f3e7ff;
     margin-left: 10%;
@@ -37,7 +41,6 @@ html body{
 }
 
 /* Mise en place du style de la nav version mobile. */
-
 .mobile_nav {
     display: none
 }
@@ -60,7 +63,6 @@ html body{
 }
 
 /* Permet de cacher le mmenu mobile par défaut. */
-
 .menu {
     display: none;
     flex-direction: column;
@@ -91,8 +93,8 @@ html body{
 }
 
 
-
-footer{
+/* Je viens créer la mise en page du footer */
+footer {
     width: 100%;
     bottom: 0;
     left: 0;
@@ -100,16 +102,16 @@ footer{
     position: fixed;
 }
 
-.document{
+.document {
     margin: 20px;
 }
 
-.windows{
+.windows {
     background-color: white;
     border: 1px solid #b8a1d6;
 }
 
-.windows_header{
+.windows_header {
     background-color: #d3c3e6;
     padding: 5px;
     font-weight: bold;
@@ -117,7 +119,7 @@ footer{
     align-items: center;
 }
 
-.windows_content{
+.windows_content {
     padding: 15px;
     color: #333;
     border: 1px solid #cec3db;
@@ -125,14 +127,16 @@ footer{
 }
 
 @media (max-width : 765px) {
-    .document{
+    .document {
         margin: 10px;
     }
-    .windows_header{
+
+    .windows_header {
         padding: 4px;
         font-size: 0.9em;
     }
-    .windows_content{
+
+    .windows_content {
         padding: 10px;
         font-size: 0.9em;
     }
