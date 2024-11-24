@@ -39,7 +39,6 @@ html body {
     display: flex;
     justify-content: space-around;
 }
-
 /* Mise en place du style de la nav version mobile. */
 .mobile_nav {
     display: none
