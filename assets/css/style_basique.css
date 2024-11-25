@@ -2,7 +2,7 @@
 
 /* Je viens mettre une image de fond que j'ai créer pour faire un fond personnalisé de mon cv. */
 body {
-    background-image: url("https://elonaalmd.github.io/cv/assets/img/fond/fond.png");
+    background-image: url("assets/img/fond/fond.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
