@@ -98,7 +98,12 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    position: fixed;
+    position: sticky;
+}
+
+footer a {
+    display: flex;
+    justify-content: space-around;
 }
 
 .document {
